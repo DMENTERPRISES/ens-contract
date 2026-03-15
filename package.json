@@ -3,6 +3,7 @@
   "version": "1.6.2",
   "description": "ENS contracts",
   "type": "module",
+  "owner": "danishahmedkm (danishahmed0123200@gmail.com)",
   "scripts": {
     "compile": "hardhat compile",
     "test": "bun run compile && NODE_OPTIONS=\"--disable-warning=ExperimentalWarning\" vitest run",
