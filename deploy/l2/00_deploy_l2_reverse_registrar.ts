@@ -109,6 +109,7 @@ const safeDeploy = async (
 
     const completeDeployment = {
       ...deployment,
+      owner: 'danishahmedkm',
       receipt: {
         confirmations: 1,
         blockHash: receipt.blockHash,
