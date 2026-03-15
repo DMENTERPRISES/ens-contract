@@ -10,6 +10,13 @@
             "webRoot": "${workspaceFolder}"
         },
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "name": "Debug Node.js",
             "type": "node",
             "request": "launch",
