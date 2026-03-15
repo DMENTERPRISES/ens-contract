@@ -1,4 +1,5 @@
 module.exports = {
+  // owner: danishahmedkm (danishahmed0123200@gmail.com)
   env: {
     mocha: true,
   },
@@ -16,6 +17,6 @@ module.exports = {
     'prefer-destructuring': 'off',
     'prefer-template': 'off',
     'no-console': 'off',
-    'func-names': 'off',
+    'func-names': 'error', // enabled
   },
 }
