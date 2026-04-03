@@ -1,4 +1,8 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "githubPullRequests.pullRequestDescription": "commit"
+  "githubPullRequests.pullRequestDescription": "commit",
+  "python-envs.workspaceSearchPaths": [
+    "./**/.venv",
+    ""
+  ]
 }
